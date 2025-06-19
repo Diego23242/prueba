@@ -8,12 +8,16 @@
 </head>
 <body>
     <header>
-        <h1>Antojitos Mexicanos</h1>
+        <div class="logo-area">
+            <!-- <img src="logo-placeholder.png" alt="Logo Antojitos Mexicanos" class="logo-placeholder"> -->
+            <h1>Antojitos Mexicanos</h1>
+        </div>
     </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="menu.html">Menú</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
             <li><a href="location.html">Ubicación</a></li>
             <!-- Other links can be added here -->
         </ul>
@@ -22,25 +26,44 @@
         <section id="tacos">
             <h2>Tacos</h2>
             <p>Delicious tortillas with various fillings like beef, chicken, or pork, topped with salsa, cilantro, and onions.</p>
-            <img src="placeholder.jpg" alt="Tacos">
+            <img src="placeholder.jpg" alt="Variedad de Tacos Mexicanos servidos">
         </section>
         <section id="quesadillas">
             <h2>Quesadillas</h2>
             <p>Warm tortillas filled with melted cheese and often other ingredients like meats, beans, or vegetables.</p>
-            <img src="placeholder.jpg" alt="Quesadillas">
+            <img src="placeholder.jpg" alt="Quesadillas doradas y rellenas de queso">
         </section>
         <section id="tamales">
             <h2>Tamales</h2>
             <p>Steamed masa (corn dough) pockets filled with meats, cheeses, or chilies, wrapped in corn husks or banana leaves.</p>
-            <img src="placeholder.jpg" alt="Tamales">
+            <img src="placeholder.jpg" alt="Tamales tradicionales envueltos en hoja">
         </section>
     </main>
+    <!-- Note for image selection: Aim for real photographs with a warm filter and soft texture, in the style of Jules Hando. Images should be high quality and appetizing. -->
     <section id="gallery">
         <h2>Galería de Platillos</h2>
         <div class="gallery-container">
-            <img src="placeholder.jpg" alt="Tacos al pastor">
-            <img src="placeholder.jpg" alt="Quesadilla de huitlacoche">
-            <img src="placeholder.jpg" alt="Tamales oaxaqueños">
+            <div class="gallery-item">
+                <img src="placeholder.jpg" alt="Platillo de Tacos al Pastor">
+                <div class="gallery-item-info">
+                    <h3>Tacos al Pastor</h3>
+                    <p>Carne de cerdo marinada en achiote, especias y chiles, asada en trompo.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder.jpg" alt="Quesadillas de Huitlacoche servidas">
+                <div class="gallery-item-info">
+                    <h3>Quesadilla de Huitlacoche</h3>
+                    <p>Delicadeza mexicana con hongo de maíz y queso oaxaca.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder.jpg" alt="Tamales Oaxaqueños tradicionales">
+                <div class="gallery-item-info">
+                    <h3>Tamales Oaxaqueños</h3>
+                    <p>Masa de maíz rellena, envuelta en hoja de plátano y cocida al vapor.</p>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
@@ -60,9 +83,14 @@
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
-                <button type="submit">Send Message</button>
+                <button type="submit" class="btn">Enviar Mensaje</button>
             </form>
         </section>
+        <div class="social-media">
+            <a href="#" class="social-icon" aria-label="Facebook"><img src="placeholder-facebook-icon.svg" alt="Facebook"></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><img src="placeholder-instagram-icon.svg" alt="Instagram"></a>
+            <a href="#" class="social-icon" aria-label="Twitter"><img src="placeholder-twitter-icon.svg" alt="Twitter"></a>
+        </div>
     </footer>
 </body>
 </html>
